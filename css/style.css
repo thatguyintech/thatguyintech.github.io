@@ -45,10 +45,31 @@ body {
   }
   
   .btn {
-    font-size: 13px;
+    font-size: 15px;
     text-transform: uppercase;
     letter-spacing: .2em;
-    border-radius: 0;
+    margin: 5px;
+    background-color: white;
+    border-color:rgba(0, 0, 0, 0.1);
+    padding: 5px;
+  }
+
+  .btn img {
+    object-fit: cover;
+    size: cover;
+    width:160px;
+    height:100px;
+    border-radius:10px;
+  }
+
+  .btn p {
+    width: 270px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+
+  .btn p:hover {
+    border-color:#283149; 
   }
   
   .btn.btn-primary {
@@ -88,6 +109,7 @@ body {
   
   .btn:hover {
     text-decoration: none;
+    border-color:#283149; 
   }
   
   header {
@@ -1454,5 +1476,17 @@ body {
       stroke-dasharray: 89, 200;
       stroke-dashoffset: -136px;
     }
+  }
+
+  .work-btn {
+    border-radius:10px;
+    background-color: white;
+    padding: 5px;
+  }
+
+  .work-btn img {
+    width:70px;
+    height:70px;
+    border-radius:10px;
   }
   
